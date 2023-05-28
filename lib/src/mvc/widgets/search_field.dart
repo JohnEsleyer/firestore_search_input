@@ -28,8 +28,8 @@ class SearchFiled extends StatelessWidget {
       this.onSearchQueryChanged,
       this.onSearchQueryUpdated,
       this.onEditingComplete,
-        this.textCapitalization,
-        this.keyboardType,
+      this.textCapitalization,
+      this.keyboardType,
       Key? key})
       : super(key: key);
 
@@ -64,7 +64,7 @@ class SearchFiled extends StatelessWidget {
               ? IconButton(
                   alignment: Alignment.centerRight,
                   color: clearSearchButtonColor,
-                  icon: const Icon(Icons.clear),
+                  icon: const Icon(Icons.delete),
                   onPressed: onClearButtonPressed!,
                 )
               : const SizedBox(
