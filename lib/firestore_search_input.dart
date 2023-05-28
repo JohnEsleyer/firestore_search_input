@@ -121,7 +121,10 @@ class _FirestoreSearchScaffoldState extends State<FirestoreSearchScaffold> {
             children: [
               if (isSearching)
                 GestureDetector(
-                  child: Icon(Icons.close),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Icon(Icons.close),
+                  ),
                   onTap: () {
                     setState(() {
                       isSearching = false;
