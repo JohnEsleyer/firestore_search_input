@@ -113,6 +113,7 @@ class _FirestoreSearchScaffoldState extends State<FirestoreSearchScaffold> {
     return Scaffold(
         backgroundColor: widget.scaffoldBackgroundColor,
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           backgroundColor: widget.appBarBackgroundColor,
           centerTitle: true,
           titleSpacing: 0.0,
